@@ -1,0 +1,80 @@
+.sw-result{
+    width:100%;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    
+    .sw-cards{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .sw-card{
+            width: 45%;
+            
+                  
+                border-radius: 20px;
+               // overflow: hidden;
+                
+                margin-bottom: 20px;
+               // border:1px solid red;
+            .sw-card-content{
+                width: 100%;
+                  background-color: $colorTwo;
+                  border-radius: 10px;
+                  padding: 4px;
+                  padding-bottom: 0px;
+                  //border:1px solid green;
+                //  align-items: flex-start;
+                  height: 100%;
+              .sw-card-content-img{
+                width: calc(100% - 2px);
+                  //height: 250px;
+                  border-radius: 10px;
+                  //border:1px solid black;
+                  overflow: hidden;
+                  img{
+                   width: 100%;
+                  }
+              }
+              .sw-card-content-title{
+                text-align: left;
+                margin-bottom: 2px;
+                display: flex;
+                justify-content: space-between;
+                i{
+                    color: $heartRed;
+                }
+            }
+            .sw-card-content-desc{
+                font-size: 0.8em;
+                text-align: left;
+
+            }
+              .sw-card-content-price{
+                width: 90%;
+                text-align: right;
+                //margin: 0px 5%;
+                color: $colorFour;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                .sw-card-review{
+                    display: flex;
+                    width: 70%;
+                    justify-content: space-around;
+     
+                    i{
+                        font-size: 0.7em;
+                    }
+                    .golden{
+                        color:$golden;
+                    }
+                 }
+              }
+            }
+            
+        }
+    }
+}

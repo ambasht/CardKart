@@ -1,0 +1,26 @@
+//color schema
+
+$colorOne:#FFC6F8;
+$colorTwo:#C4F2FF;
+$colorThree:#D6DAEE;
+$colorFour:#4B538A;
+$golden:#f3df6e;
+$heartRed:#FF4033;
+
+
+@import'header.scss';
+@import'footer.scss';
+@import'results.scss';
+@import'home.scss';
+@import'index.scss';
+@import'footerDet.scss';
+@import'resultSlider.scss';
+@import'cart.scss';
+
+.sw-clearspace{
+    height: 50px;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}

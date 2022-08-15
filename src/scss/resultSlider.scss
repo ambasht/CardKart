@@ -1,0 +1,225 @@
+.sw-result-slider{
+    width: 100%;
+    height: 100%;
+
+    .sw-result-slider-box{
+        width: 100%;
+        height: 100%;
+        .sw-result-slider-crousel{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            .sw-result-slider-crousel-box{
+                width: 100%;
+                height: 100%;
+                .sw-result-slider-crousel-card{
+                    width: 100%;
+                    height: 100%;
+                    .sw-result-slider-crousel-card-img{
+                        width: 100%;
+                        height: 100%;
+                        
+                                img{
+                                    //width: 100%;
+                                    height: 100vh;
+                                }
+                            
+                        
+                            }
+                }
+
+            }
+        }
+    }
+}
+
+.sw-result-slider-card-info{
+    position: fixed;
+    color: #000000;
+    top: 50px;
+    bottom: 0;
+    border: 5px solid #fff;
+    left:2.5%;
+    width: calc(100% - 5% - 30px);
+    transition: 0.8s;
+    //height: calc(100vh - 50px);
+    
+    border-radius: 20px 20px 0px 0px;
+    background-color: #fff;
+    padding: 15px 10px;
+    overflow-y: auto;
+    box-shadow: 5px 5px 20px rgba($color: #000000, $alpha: 0.3);
+    .sw-result-slider-card-info-close{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 99;
+        font-size: 1.6em;
+    }
+    .sw-result-slider-sub-crousel{
+        //height: 100px;
+        margin-bottom: 30px;
+        position: relative;
+       overflow-x: hidden;
+        .slick-prev::before,
+        .slick-next::after{
+            color: #000000!important;
+            display: none;
+        }
+        .slick-dots{
+            position: absolute;
+            bottom: 4px;
+            left: 0;
+            width: 100%;
+            background-image: linear-gradient(rgba(0,0,0,0.0),rgba(255,255,255,0.8)); 
+        }
+        .sw-result-slider-sub-crousel-card{
+            height: 100%;
+            border-radius: 10px;
+           overflow: hidden;
+img{
+    width: 100%;
+    height: 100%;
+}
+        }
+    }
+    .sw-result-info-add-cart-btn{
+        width: 100%;
+        position: relative;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        .add-to-cart{
+            background-color: $golden;
+            width: 200px;
+            color: #000000;
+            text-align: center;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 2px -3px 20px rgba($color: #000, $alpha: 0.3);
+        }
+    }
+    .sw-result-address{
+        width: 100%;
+        input{
+            border-radius: 5px;
+            height: 25px;
+            border: 1px solid $colorFour;
+            outline: none;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 5px;
+            padding: 0px 5px;
+        }
+        .form-group{
+            display: flex;
+          //  border: 1px solid;
+            //justify-content: space-between;
+            width: 95%;
+            margin: auto;
+            margin-bottom: 5px;
+            input{
+                width: 45%;
+                border-radius: 5px;
+            height: 25px;
+            border: 1px solid $colorFour;
+            outline: none;
+            padding: 0px 5px;
+            
+            }
+        }
+        .sw-result-info-add-cart-btn{
+            
+            justify-content: start;
+            width: 30%;
+            
+            .add-to-cart{
+                background-color: $colorOne;
+                height: 60%;
+                margin-left: 10%;
+            }
+        }
+    }
+    .sw-cart-address-list-box{
+        width: 95%;
+        margin: auto;
+        padding: 25px 0px;
+        .sw-cust-address-item{
+            border: 2px solid $colorThree;
+            box-shadow: 4px 2px 15px rgba(0,0,0,0.3);
+            border-radius: 5px;
+            width: calc(100% - 25px);
+            text-align: left;
+            padding: 2px 10px;
+            display: flex;
+            align-items:center;
+            margin-bottom: 20px;
+            .sw-cust-address-item-left{
+                width: 60%;
+                .sw-cust-address-list-name{
+                    font-weight: 700;
+                  }
+                  .sw-cust-address-list-detail{
+                    font-size: 0.8em;
+                  }
+            }
+            
+            .sw-cust-address-item-right{
+                display: flex;
+                justify-content: space-around;
+width: 40%;
+                .sw-cust-address-item-btn{
+                    width: 40%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 25px;
+                    background-color: $colorTwo;
+                    border-radius: 5px;
+                    box-shadow: 6px 2px 5px rgba(0,0,0,0.3);
+                }
+            }
+        }
+    }
+    .sw-result-card-info-head{
+          font-size: 1.4em;
+          font-weight: 700;
+          position: relative;
+          text-align: left;
+          margin-bottom: 7px;
+    }
+    .sw-result-card-info-text{
+         text-align: left;
+         position: relative;
+         margin-bottom: 20px;
+    }
+    .sw-result-card-info-customer-review{
+        text-align: left;
+        width: 100%;
+        position: relative;
+        .sw-result-card-info-text-bold{
+ font-weight: 700;
+ margin-bottom: 7px;
+        }
+        .sw-card-review{
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            margin-bottom: 7px;
+
+            i{
+                font-size: 0.7em;
+            }
+            .golden{
+                color:$golden;
+            }
+         }
+    }
+}
