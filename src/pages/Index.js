@@ -72,7 +72,7 @@ class Index extends React.Component {
                                     <div className="sw-index-card-top-text-tittle">Ocassion</div>
                                 </div>
                             </div>
-                            <Link to={'/home'} to={'/home'}  className="sw-index-card-bottom"><button >Explore</button></Link>
+                            <Link to={'/home'} className="sw-index-card-bottom"><button >Explore</button></Link>
                         </div>
 
                         <div className="sw-index-card">
