@@ -91,7 +91,7 @@ class App extends React.Component {
 
   }
   render() {
-    var body = <Index onClick={this.changePage}/>;
+    {/*var body = <Index onClick={this.changePage}/>;
     if (this.state.page == "index") {
       body = <Index onClick={this.changePage} />;
     }
@@ -106,7 +106,7 @@ class App extends React.Component {
     }
     else if (this.state.page == "cart") {
       body = <Cart onClick={this.changePage}/>;
-    }
+    }*/}
     return (
 
       <div>Hello dep</div>
