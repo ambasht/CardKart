@@ -1,22 +1,22 @@
 
-import './App.css';
+import './CardKart/App.css';
 import './scss/main.scss';
-import Header from './pages/Header'
-import HeaderSlider from './pages/HeaderSlider'
+import Header from './CardKart/pages/Header'
+import HeaderSlider from './CardKart/pages/HeaderSlider'
 import Footer from './pages/Footer';
-import Results from './pages/Results';
-import Home from './pages/Home';
-import Index from './pages/Index';
-import FooterIndex from './pages/FootIndex';
-import FooterSearch from './pages/FooterSearch';
-import FooterFillter from './pages/FooterFillter';
-import CartAddressFooter from './pages/CartAddressFooter';
-import CartPay from './pages/CartPay';
-import CartFooter from './pages/CartFooter';
-import ResultSlider from './pages/ResultSlider';
+import Results from './CardKart/pages/Results';
+import Home from './CardKart/pages/Home';
+import Index from './CardKart/pages/Index';
+import FooterIndex from './CardKart/pages/FootIndex';
+import FooterSearch from './CardKart/pages/FooterSearch';
+import FooterFillter from './CardKart/pages/FooterFillter';
+import CartAddressFooter from './CardKart/pages/CartAddressFooter';
+import CartPay from './CardKart/pages/CartPay';
+import CartFooter from './CardKart/pages/CartFooter';
+import ResultSlider from './CardKart/pages/ResultSlider';
 import React from 'react'
-import Cart from './pages/Cart';
-import CartAddress from './pages/CartAddress';
+import Cart from './CardKart/pages/Cart';
+import CartAddress from './CardKart/pages/CartAddress';
 import { BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 
 class App extends React.Component {
