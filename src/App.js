@@ -110,7 +110,7 @@ class App extends React.Component {
     return (
 
       <div className="App">
-         <Router>
+         <Router basename="/index.html">
            {this.state.header ? <Header results={this.state.headerType} onClick={this.changePage} /> : ''}
            <Routes>
               <Route exact path='/' element={''} />
