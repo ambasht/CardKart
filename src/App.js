@@ -91,7 +91,7 @@ class App extends React.Component {
 
   }
   render() {
-    {/*var body = <Index onClick={this.changePage}/>;
+    var body = <Index onClick={this.changePage}/>;
     if (this.state.page == "index") {
       body = <Index onClick={this.changePage} />;
     }
@@ -106,19 +106,14 @@ class App extends React.Component {
     }
     else if (this.state.page == "cart") {
       body = <Cart onClick={this.changePage}/>;
-    }*/}
+    }
     return (
 
-      <div>Hello dep</div>
-      );
-    }
-  }
-  export default App;
-      {/*<div className="App">
+      <div className="App">
          <Router basename="/index.html"> 
            {this.state.header ? <Header results={this.state.headerType} onClick={this.changePage} /> : ''}
            <Routes>
-              <Route exact path='/' element={''} />
+              <Route exact path='/CardKart' element={''} />
               <Route exact path='/home' element={<Header/>} />
               <Route exact path='/search' element={<Header/>} />
               <Route exact path='/results' element={<HeaderSlider/>} />
@@ -127,7 +122,7 @@ class App extends React.Component {
               <Route exact path='/cart/review' element={''} />
            </Routes>
            <Routes>
-              <Route exact path='/' element={<Index/>} />
+              <Route exact path='/CardKart' element={<Index/>} />
               <Route exact path='/home' element={<Home/>} />
               <Route exact path='/search' element={<Results/>} />
               <Route exact path='/results' element={<ResultSlider/>} />
@@ -137,7 +132,7 @@ class App extends React.Component {
 
           </Routes>
           <Routes>
-              <Route exact path='/' element={<FooterIndex/>} />
+              <Route exact path='/CardKart' element={<FooterIndex/>} />
               <Route exact path='/home' element={<FooterSearch/>} />
               <Route exact path='/search' element={<FooterFillter/>} />
               <Route exact path='/results' element={<ResultSlider/>} />
@@ -146,4 +141,10 @@ class App extends React.Component {
               <Route exact path='/cart/review' element={<CartPay/>} />
            </Routes>
         </Router>
-    </div>*/}
+    </div>
+
+
+);
+}
+}
+export default App;
