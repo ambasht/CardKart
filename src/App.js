@@ -109,8 +109,13 @@ class App extends React.Component {
     }
     return (
 
-      <div className="App">
-         <Router basename="/index.html">
+      <div>Hello dep</div>
+      );
+    }
+  }
+  export default App;
+      {/*<div className="App">
+         <Router basename="/index.html"> 
            {this.state.header ? <Header results={this.state.headerType} onClick={this.changePage} /> : ''}
            <Routes>
               <Route exact path='/' element={''} />
@@ -141,8 +146,4 @@ class App extends React.Component {
               <Route exact path='/cart/review' element={<CartPay/>} />
            </Routes>
         </Router>
-      </div>
-    );
-  }
-}
-export default App;
+    </div>*/}
