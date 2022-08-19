@@ -91,6 +91,7 @@ class App extends React.Component {
 
   }
   render() {
+  {/* 
     var body = <Index onClick={this.changePage}/>;
     if (this.state.page == "index") {
       body = <Index onClick={this.changePage} />;
@@ -145,6 +146,15 @@ class App extends React.Component {
 
 
 );
-}
+}*/}
+return(
+  <div>
+<Router>
+      <Routes>
+          <Route exact path='/CardKart' element={<Index/>} />
+      </Routes>
+</Router>
+</div>
+)}
 }
 export default App;
