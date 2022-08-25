@@ -111,35 +111,35 @@ class App extends React.Component {
     return (
 
       <div className="App">
-         <Router basename="/index.html"> 
+         <Router> 
            {this.state.header ? <Header results={this.state.headerType} onClick={this.changePage} /> : ''}
            <Routes>
               <Route exact path='/CardKart/home' element={''} />
-              <Route exact path='/CardKart/home' element={<Header/>} />
+             {/* <Route exact path='/CardKart/home' element={<Header/>} />
               <Route exact path='/CardKart/search' element={<Header/>} />
               <Route exact path='/CardKart/results' element={<HeaderSlider/>} />
               <Route exact path='/CardKart/cart' element={''} />
               <Route exact path='/CardKart/cart/linkaddress' element={''} />
-              <Route exact path='/CardKart/cart/review' element={''} />
+              <Route exact path='/CardKart/cart/review' element={''} />*/}
            </Routes>
            <Routes>
               <Route exact path='/CardKart' element={<Index/>} />
-              <Route exact path='/CardKart/home' element={<Home/>} />
+              {/*<Route exact path='/CardKart/home' element={<Home/>} />
               <Route exact path='/CardKart/search' element={<Results/>} />
               <Route exact path='/CardKart/results' element={<ResultSlider/>} />
               <Route exact path='/CardKart/cart' element={<Cart/>} />
               <Route exact path='/CardKart/cart/linkaddress' element={<CartAddress/>} />
               <Route exact path='/CardKart/cart/review' element={<Home/>} />
-
+*/}
           </Routes>
           <Routes>
               <Route exact path='/CardKart' element={<FooterIndex/>} />
-              <Route exact path='/CardKart/home' element={<FooterSearch/>} />
+              {/*<Route exact path='/CardKart/home' element={<FooterSearch/>} />
               <Route exact path='/CardKart/search' element={<FooterFillter/>} />
               <Route exact path='/CardKart/results' element={<ResultSlider/>} />
               <Route exact path='/CardKart/cart' element={<CartFooter/>} />
               <Route exact path='/CardKart/cart/linkaddress' element={<CartAddressFooter/>} />
-              <Route exact path='/CardKart/cart/review' element={<CartPay/>} />
+              <Route exact path='/CardKart/cart/review' element={<CartPay/>} />*/}
            </Routes>
         </Router>
     </div>
