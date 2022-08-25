@@ -115,18 +115,17 @@ class App extends React.Component {
            {this.state.header ? <Header results={this.state.headerType} onClick={this.changePage} /> : ''}
            <Routes>
               <Route exact path='/CardKart/home' element={''} />
-             {/* <Route exact path='/CardKart/home' element={<Header/>} />
+              <Route exact path='/CardKart/home' element={<Header/>} />
               <Route exact path='/CardKart/search' element={<Header/>} />
               <Route exact path='/CardKart/results' element={<HeaderSlider/>} />
               <Route exact path='/CardKart/cart' element={''} />
               <Route exact path='/CardKart/cart/linkaddress' element={''} />
-              <Route exact path='/CardKart/cart/review' element={''} />*/}
+              <Route exact path='/CardKart/cart/review' element={''} />
            </Routes>
+           
+           
            <Routes>
-              <Route exact path='/CardKart/home' element={<Home/>} />
-           </Routes>
-           {/*<Routes>
-              <Route exact path='/CardKart' element={<Index/>} />
+             <Route exact path='/CardKart/' element={<Index/>} />
               <Route exact path='/CardKart/home' element={<Home/>} />
               <Route exact path='/CardKart/search' element={<Results/>} />
               <Route exact path='/CardKart/results' element={<ResultSlider/>} />
@@ -143,7 +142,7 @@ class App extends React.Component {
               <Route exact path='/CardKart/cart' element={<CartFooter/>} />
               <Route exact path='/CardKart/cart/linkaddress' element={<CartAddressFooter/>} />
               <Route exact path='/CardKart/cart/review' element={<CartPay/>} />
-           </Routes>*/}
+           </Routes>
         </Router>
     </div>
 
