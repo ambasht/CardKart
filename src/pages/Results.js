@@ -33,8 +33,9 @@ class Results extends React.Component {
                         </div>
 
                     </Link>
-                    <Link to={'/CardKart/results'} className="sw-card" >
+                    
                     <div className="sw-card" onClick={this.changePage}>
+                    <Link to={'/CardKart/results'} className="sw-card" >
                         <div className="sw-card-content">
                             <div className="sw-card-content-img">
                                 <img src={Img2}></img>
@@ -51,9 +52,9 @@ class Results extends React.Component {
                                 </div>
                                 ₹99</div>
                         </div>
-
+                        </Link>
                     </div>
-                    </Link>
+                    
 
                     <Link to={'/CardKart/results'} className="sw-card" >
                         <div className="sw-card-content">
