@@ -19,8 +19,8 @@ class Home extends React.Component {
             initialSlide: 0,
 
         };
-        return (<div>Hellohome</div>);
-            {/*<div className="sw-home">
+        return (
+            <div className="sw-home">
                 <div className="sw-home-box">
                     <div className="sw-home-card-top">
                         <div className="sw-home-card-top-text">
@@ -99,7 +99,7 @@ class Home extends React.Component {
                     </div>
                     <div className="sw-slider-container">
 
-                        <Slider {...settings} className="sw-home-slider">
+                        {/*<Slider {...settings} className="sw-home-slider">
                             <div className="sw-home-card" onClick={this.changePage}>
                                 <div className="sw-home-card-top-img">
                                     <img src={Img}></img>
@@ -130,7 +130,7 @@ class Home extends React.Component {
 
                             </div>
 
-                        </Slider>
+                        </Slider>*/}
 
                     </div>
                 </div>
@@ -161,7 +161,8 @@ class Home extends React.Component {
                 
                 <FooterDetail/>
                 <div className="sw-clearspace"></div>
-            </div>*/}
+            </div>
+            );
             
         
     }
