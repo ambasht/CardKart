@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Switch, Route, Link,useNavigate } from "react-
 
 
 class Header extends React.Component {
-    
+    back(){
+        window.history.go(-1)
+    }
     render() {
 
 
@@ -11,9 +13,9 @@ class Header extends React.Component {
         
         header = <div className="sw-header">
             <div className="sw-header-box">
-                <div className="sw-logo" onClick={this.context.router.history.goBack}><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Cards</div>
+                <div className="sw-logo" onClick={this.back}><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Cards</div>
                 <div className="sw-head-icon-container">
-                    <Link to={'/CardKart/favrouit'}>
+                    <Link to={'/CardKart/cart'}>
                         <i class="fas fa-heart" style={{ "fontSize": "0.8em", "display": "flex", "justifyContent": "center", "alignItems": "center", "color": "#FF4033" }}></i>
                     </Link>
                     <Link to={'/CardKart/cart'} className="sw-cart">

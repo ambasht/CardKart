@@ -20,13 +20,18 @@ class CartAddress extends React.Component {
     toggleForm = () => {
         this.setState({ displayForm: !this.state.displayForm});
     }
+    back = () => {
+        window.history.go(-1)
+
+        
+    }
     render() {
         return (
             <div className="sw-cartPage">
                 <div className="sw-clearspace" style={{ background: "#fff", position: "fixed", top: "0", left: "0", zIndex: "1", width: "100%", height: "54px" }}></div>
                 <div className="sw-clearspace"></div>
                 <div className="sw-cartPage-header">
-                    <div className="sw-logo"><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Swaran</div>
+                    <div className="sw-logo" onClick={this.back}><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Swaran</div>
                     <div className="sw-head-icon-container">
                         <i class="fas fa-search"></i>
 

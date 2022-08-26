@@ -3,7 +3,9 @@ import { BrowserRouter as Router,Switch,Route,Link,useNavigate} from "react-rout
 
 
 class Header extends React.Component {
-    
+    back(){
+        window.history.go(-1)
+    }
     
     render() {
         var ifSearchActive = this.props.results;
@@ -11,7 +13,7 @@ class Header extends React.Component {
         let header;
         
             header = <div className="sw-result-header-nav">
-                <div className="sw-result-header-button" onClick={this.context.router.history.goBack}>
+                <div className="sw-result-header-button" onClick={this.back}>
                     <i class="fa fa-chevron-left" aria-hidden="true"></i>
 
                 </div>
