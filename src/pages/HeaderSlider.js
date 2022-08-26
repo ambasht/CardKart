@@ -13,7 +13,7 @@ class Header extends React.Component {
         let header;
         
             header = <div className="sw-result-header-nav">
-                <div className="sw-result-header-button" onClick={this.back}>
+                <div className="sw-result-header-button" onClick={this.context.router.history.goBack}>
                     <i class="fa fa-chevron-left" aria-hidden="true"></i>
 
                 </div>

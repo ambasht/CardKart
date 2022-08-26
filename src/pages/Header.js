@@ -13,7 +13,7 @@ class Header extends React.Component {
         
         header = <div className="sw-header">
             <div className="sw-header-box">
-                <div className="sw-logo" onClick={this.back}><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Cards</div>
+                <div className="sw-logo" onClick={this.context.router.history.goBack}><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Cards</div>
                 <div className="sw-head-icon-container">
                     <Link to={'/CardKart/favrouit'}>
                         <i class="fas fa-heart" style={{ "fontSize": "0.8em", "display": "flex", "justifyContent": "center", "alignItems": "center", "color": "#FF4033" }}></i>
