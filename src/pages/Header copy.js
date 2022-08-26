@@ -3,10 +3,10 @@ import { BrowserRouter as Router,Switch,Route,Link,useNavigate} from "react-rout
 
 
 class Header extends React.Component {
-    navigate = useNavigate();
+    
 
     back = () => {
-        this.props.onClick("back");
+        useNavigate(-1);
 
         
     }
@@ -17,7 +17,7 @@ class Header extends React.Component {
         if (ifSearchActive == 1) {
             header = <div className="sw-header">
                 <div className="sw-header-box">
-                    <div className="sw-logo" onClick={() => navigate(-1)}><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Cards</div>
+                    <div className="sw-logo" onClick={this.back}><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Cards</div>
                     <div className="sw-head-icon-container">
                         <i class="fas fa-heart" style={{ "fontSize": "0.8em", "display": "flex", "justifyContent": "center", "alignItems": "center", "color": "#FF4033" }}></i>
                         <div className="sw-cart">
