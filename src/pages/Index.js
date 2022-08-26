@@ -77,7 +77,7 @@ class Index extends React.Component {
 
                         <div className="sw-index-card">
                             <div className="sw-index-card-top-img">
-                                <img src={Img}></img>
+                                <img src={Img2}></img>
                             </div>
                             <div className="sw-index-card-top">
                                 <div className="sw-index-card-top-text">
@@ -115,7 +115,7 @@ class Index extends React.Component {
 
                         <div className="sw-index-card">
                             <div className="sw-index-card-top-img">
-                                <img src={Img}></img>
+                                <img src={Img2}></img>
                             </div>
                             <div className="sw-index-card-top">
                                 <div className="sw-index-card-top-text">
@@ -142,7 +142,7 @@ class Index extends React.Component {
                                 <img src={Img} />
                             </Link>
                             <Link className="sw-explore-card" to={'/CardKart/search'} >
-                                <img src={Img} />
+                                <img src={Img2} />
                             </Link>
                             <Link className="sw-explore-card" to={'/CardKart/search'} >
                                 <img src={Img} />

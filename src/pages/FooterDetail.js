@@ -29,7 +29,7 @@ class FooterDetail extends React.Component {
                     <div className="sw-logo">Cards</div>
                 </div>
                 <div className="sw-h-divider"></div>
-                <div className="sw-footer-detail-copy">Copyrights <i class="fas fa-copyright"></i> 2021<br/>All rights Reserved with HKA<br/>Made with <i class="fas fa-heart"></i> in India</div>
+                <div className="sw-footer-detail-copy">Copyrights <i class="fas fa-copyright"></i> 2022<br/>All rights Reserved with HKA<br/>Made with <i class="fas fa-heart"></i> in India</div>
             </div>
 
         );

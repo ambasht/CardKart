@@ -1,6 +1,6 @@
 import React from 'react'
 import Img from '../img/card.jpeg';
-
+import Img2 from '../img/card3.jpeg';
 import Slider from "react-slick";
 import "../../node_modules/slick-carousel/slick/slick.css";
 import "../../node_modules/slick-carousel/slick/slick-theme.css";
@@ -59,7 +59,7 @@ class ResultSlider extends React.Component {
                             </div>
                             <div className="sw-result-slider-crousel-card">
                                 <div className="sw-result-slider-crousel-card-img">
-                                    <img src={Img} />
+                                    <img src={Img2} />
 
 
                                 </div>
@@ -71,7 +71,7 @@ class ResultSlider extends React.Component {
 
                             <div className="sw-result-slider-card-bottom-left">
                                 <div className="sw-result-slider-card-bottom-left-top">A Greeting Card</div>
-                                <div className="sw-result-slider-card-bottom-left-bottom">$100</div>
+                                <div className="sw-result-slider-card-bottom-left-bottom">₹100</div>
                             </div>
                             <div className="sw-result-slider-card-bottom-right">
                                 <i class="fa fa-info-circle" aria-hidden="true" onClick={this.toggleInfo}></i>
@@ -88,7 +88,7 @@ class ResultSlider extends React.Component {
                                         <img src={Img} />
                                     </div>
                                     <div className="sw-result-slider-sub-crousel-card">
-                                        <img src={Img} />
+                                        <img src={Img2} />
                                     </div>
                                     <div className="sw-result-slider-sub-crousel-card">
                                         <img src={Img} />

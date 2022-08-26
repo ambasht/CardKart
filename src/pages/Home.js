@@ -40,7 +40,7 @@ class Home extends React.Component {
                             </Link>
                             <div className="sw-home-card"onClick={this.changePage}>
                                 <div className="sw-home-card-top-img">
-                                    <img src={Img}></img>
+                                    <img src={Img2}></img>
                                 </div>
 
 
@@ -55,7 +55,7 @@ class Home extends React.Component {
 
                             <div className="sw-home-card" onClick={this.changePage}>
                                 <div className="sw-home-card-top-img">
-                                    <img src={Img}></img>
+                                    <img src={Img2}></img>
                                 </div>
 
 
@@ -79,13 +79,13 @@ class Home extends React.Component {
                         </div>
 
                         <div className="sw-home-card-img" onClick={this.changePage}>
-                            <img src={Img}></img>
+                            <img src={Img2}></img>
                         </div>
                         <div className="sw-home-card-img" onClick={this.changePage}>
                             <img src={Img}></img>
                         </div>
                         <div className="sw-home-card-img" onClick={this.changePage}>
-                            <img src={Img}></img>
+                            <img src={Img2}></img>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ class Home extends React.Component {
                             </div>
                             <div className="sw-home-card" onClick={this.changePage}>
                                 <div className="sw-home-card-top-img">
-                                    <img src={Img}></img>
+                                    <img src={Img2}></img>
                                 </div>
 
 
@@ -148,13 +148,13 @@ class Home extends React.Component {
                         </div>
 
                         <div className="sw-home-card-img" onClick={this.changePage}>
-                            <img src={Img}></img>
+                            <img src={Img2}></img>
                         </div>
                         <div className="sw-home-card-img" onClick={this.changePage}>
                             <img src={Img}></img>
                         </div>
                         <div className="sw-home-card-img" onClick={this.changePage}>
-                            <img src={Img}></img>
+                            <img src={Img2}></img>
                         </div>
                     </div>
                 </div>

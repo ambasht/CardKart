@@ -38,7 +38,7 @@ class Cart extends React.Component {
                             <div className="sw-cartPage-card-right">
                                 <div>
                                     <div className="sw-cartPage-card-right-name">A Greeting Card</div>
-                                    <div className="sw-cartPage-card-right-price">$100</div>
+                                    <div className="sw-cartPage-card-right-price">₹100</div>
                                     <div className="sw-cartPage-card-right-button-box">
                                         <div className="sw-cartPage-card-right-button"><i class="fas fa-minus"></i></div>
                                         <div className="sw-cartPage-card-right-number">1</div>
@@ -54,7 +54,7 @@ class Cart extends React.Component {
                             <div className="sw-cartPage-card-right">
                                 <div>
                                     <div className="sw-cartPage-card-right-name">A Greeting Card</div>
-                                    <div className="sw-cartPage-card-right-price">$100</div>
+                                    <div className="sw-cartPage-card-right-price">₹100</div>
                                     <div className="sw-cartPage-card-right-button-box">
                                         <div className="sw-cartPage-card-right-button"><i class="fas fa-minus"></i></div>
                                         <div className="sw-cartPage-card-right-number">1</div>
@@ -69,21 +69,21 @@ class Cart extends React.Component {
                                 <div className="order-detail-heading">Order Breakout</div>
                                 <div className="order-detail-row">
                                     <div className="left">A Greeting Card</div>
-                                    <div className="center">$100 X 1</div>
+                                    <div className="center">₹100 X 1</div>
                                     <div className="mid">:</div>
-                                    <div className="right">$100</div>
+                                    <div className="right">₹100</div>
                                 </div>
                                 <div className="order-detail-row">
                                     <div className="left">A Greeting Card</div>
-                                    <div className="center">$100 X 1</div>
+                                    <div className="center">₹100 X 1</div>
                                     <div className="mid">:</div>
-                                    <div className="right">$100</div>
+                                    <div className="right">₹100</div>
                                 </div>
                                 <div className="order-detail-row">
                                     <div className="left">Delivery</div>
-                                    <div className="center">$2</div>
+                                    <div className="center">₹2</div>
                                     <div className="mid">:</div>
-                                    <div className="right">+$2</div>
+                                    <div className="right">+₹2</div>
                                 </div>
                                 <div className="order-detail-row">
                                     <div className="left">Discount</div>
@@ -95,13 +95,13 @@ class Cart extends React.Component {
                                     <div className="left">Tax</div>
                                     <div className="center">10%</div>
                                     <div className="mid">:</div>
-                                    <div className="right">+$10</div>
+                                    <div className="right">+₹10</div>
                                 </div>
                                 <div className="sw-cart-order-total-seprator"></div>
                                 <div className="order-detail-row-total">
                                     <div className="left">Total</div>
                                     
-                                    <div className="right">$200</div>
+                                    <div className="right">₹200</div>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +126,7 @@ class Cart extends React.Component {
                             <div className="sw-cartPage-card-right">
                                 <div>
                                     <div className="sw-cartPage-card-right-name">A Greeting Card</div>
-                                    <div className="sw-cartPage-card-right-price">$100</div>
+                                    <div className="sw-cartPage-card-right-price">₹100</div>
                                     <div className="sw-cartPage-card-right-button-box">
                                         <div className="sw-cartPage-card-right-cart">Move to Cart</div>
                                     </div>
@@ -140,7 +140,7 @@ class Cart extends React.Component {
                             <div className="sw-cartPage-card-right">
                                 <div>
                                     <div className="sw-cartPage-card-right-name">A Greeting Card</div>
-                                    <div className="sw-cartPage-card-right-price">$100</div>
+                                    <div className="sw-cartPage-card-right-price">₹100</div>
                                     <div className="sw-cartPage-card-right-button-box">
                                         <div className="sw-cartPage-card-right-cart">Move to Cart</div>
                                     </div>

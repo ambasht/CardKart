@@ -95,7 +95,7 @@ class Footer extends React.Component {
             footer = <div className="sw-cart-footer">
 
                 <Link to={'/home'} className="text-one" onClick={this.changeFooter} >Proceed to buy</Link>
-                <div className="text-two" >Total $200</div>
+                <div className="text-two" >Total ₹200</div>
 
             </div>
         }
