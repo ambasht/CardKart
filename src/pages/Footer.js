@@ -64,7 +64,7 @@ class Footer extends React.Component {
 
         else if (this.state.footerValue === 2) {
             footer = <div className="sw-footer">
-                <Link className={this.state.footerValue == 2 ? "sw-footer-item" + " " + "active" : "sw-footer-item"} to={'/home'} onClick={this.changeFooter}>
+                <Link className={this.state.footerValue == 2 ? "sw-footer-item" + " " + "active" : "sw-footer-item"} to={'/CardKart/home'} onClick={this.changeFooter}>
                     <i class="fas fa-border-all"></i>
                     <div className="sw-footer-item-name">Category</div>
                 </Link>
@@ -72,7 +72,7 @@ class Footer extends React.Component {
                     <i class="fas fa-heart"></i>
                     <div className="sw-footer-item-name">Favourite</div>
                 </Link>
-                <Link className="sw-footer-item" to={'/'} onClick={() => this.changeFooter("index")}>
+                <Link className="sw-footer-item" to={'/CardKart/'} onClick={() => this.changeFooter("index")}>
                     <i class="fas fa-home"></i>
                     <div className="sw-footer-item-name">Home</div>
                 </Link>

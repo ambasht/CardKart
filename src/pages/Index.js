@@ -107,7 +107,7 @@ class Index extends React.Component {
                                     <input type="text"></input>
 
                                 </form>
-                                <button style={{ borderRadius: "0px 10px 10px 0px" }} to={'/search'}>Search</button>
+                                <button style={{ borderRadius: "0px 10px 10px 0px" }} to={'/CardKart/search'}>Search</button>
 
                             </div>
                         </div>
@@ -138,13 +138,13 @@ class Index extends React.Component {
                     <div className="sw-index-logo" style={{ color: "#fff", marginTop: "45px" }}>Explore by<br />Occasion</div>
                     <div className="sw-explore-crousel">
                         <Slider {...settings2} className="sw-index-slider">
-                            <Link className="sw-explore-card" to={'/search'} t>
+                            <Link className="sw-explore-card" to={'/CardKart/search'} t>
                                 <img src={Img} />
                             </Link>
-                            <Link className="sw-explore-card" to={'/search'} >
+                            <Link className="sw-explore-card" to={'/CardKart/search'} >
                                 <img src={Img} />
                             </Link>
-                            <Link className="sw-explore-card" to={'/search'} >
+                            <Link className="sw-explore-card" to={'/CardKart/search'} >
                                 <img src={Img} />
                             </Link>
                         </Slider>

@@ -18,7 +18,7 @@ class Header extends React.Component {
                     <i class="fa fa-chevron-left" aria-hidden="true"></i>
 
                 </div>
-                <Link to={'/cart'} className="sw-result-header-button-right">
+                <Link to={'/CardKart/cart'} className="sw-result-header-button-right">
                     <div className="sw-result-btn-item">Checkout</div>
                     <div className="sw-cart">
                         <i class="fas fa-shopping-cart"></i>

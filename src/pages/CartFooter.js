@@ -23,7 +23,7 @@ class Footer extends React.Component {
       
             footer = <div className="sw-cart-footer">
 
-                <Link to={'/cart/linkaddress'} className="text-one" onClick={this.changeFooter} >Link Addresses</Link>
+                <Link to={'/CardKart/cart/linkaddress'} className="text-one" onClick={this.changeFooter} >Link Addresses</Link>
                 <div className="text-two" >Total $200</div>
 
             </div>

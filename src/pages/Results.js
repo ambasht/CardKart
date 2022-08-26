@@ -54,7 +54,7 @@ class Results extends React.Component {
                     </div>
 
 
-                    <Link to={'/results'} className="sw-card" >
+                    <Link to={'/CardKart/results'} className="sw-card" >
                         <div className="sw-card-content">
                             <div className="sw-card-content-img">
                                 <img src={Img}></img>
@@ -73,7 +73,7 @@ class Results extends React.Component {
                         </div>
 
                     </Link>
-                    <Link to={'/results'} className="sw-card" >
+                    <Link to={'/CardKart/results'} className="sw-card" >
                         <div className="sw-card-content">
                             <div className="sw-card-content-img">
                                 <img src={Img}></img>
@@ -91,7 +91,7 @@ class Results extends React.Component {
                                 ₹99</div>
                         </div>
 
-                    </Link><Link to={'/results'} className="sw-card" >
+                    </Link><Link to={'/CardKart/results'} className="sw-card" >
                         <div className="sw-card-content">
                             <div className="sw-card-content-img">
                                 <img src={Img}></img>
@@ -109,7 +109,7 @@ class Results extends React.Component {
                                 ₹99</div>
                         </div>
 
-                    </Link><Link to={'/results'} className="sw-card" >
+                    </Link><Link to={'/CardKart/results'} className="sw-card" >
                         <div className="sw-card-content">
                             <div className="sw-card-content-img">
                                 <img src={Img}></img>

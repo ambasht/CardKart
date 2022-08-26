@@ -101,8 +101,8 @@ class CartAddress extends React.Component {
                         <div className="sw-cust-address-item">
                             <div className="sw-cust-address-item-left">
                                 <div className="sw-cust-address-list-name">Harshit</div>
-                                <div className="sw-cust-address-list-detail">Mob:8266939719</div>
-                                <div className="sw-cust-address-list-detail">C-27/171,Jagatganj</div>
+                                <div className="sw-cust-address-list-detail">Mob:9999999919</div>
+                                <div className="sw-cust-address-list-detail">Back Street, Down</div>
                                 <div className="sw-cust-address-list-detail">Varanasi, Uttar Pradesh</div>
                             </div>
                             <div className="sw-cust-address-item-right">
@@ -115,8 +115,8 @@ class CartAddress extends React.Component {
                         <div className="sw-cust-address-item">
                             <div className="sw-cust-address-item-left">
                                 <div className="sw-cust-address-list-name">Harshit</div>
-                                <div className="sw-cust-address-list-detail">Mob:8266939719</div>
-                                <div className="sw-cust-address-list-detail">C-27/171,Jagatganj</div>
+                                <div className="sw-cust-address-list-detail">Mob:999999719</div>
+                                <div className="sw-cust-address-list-detail">Down the lane</div>
                                 <div className="sw-cust-address-list-detail">Varanasi, Uttar Pradesh</div>
                             </div>
                             <div className="sw-cust-address-item-right">
@@ -129,8 +129,8 @@ class CartAddress extends React.Component {
                         <div className="sw-cust-address-item">
                             <div className="sw-cust-address-item-left">
                                 <div className="sw-cust-address-list-name">Harshit</div>
-                                <div className="sw-cust-address-list-detail">Mob:8266939719</div>
-                                <div className="sw-cust-address-list-detail">C-27/171,Jagatganj</div>
+                                <div className="sw-cust-address-list-detail">Mob:999999719</div>
+                                <div className="sw-cust-address-list-detail">Down the Lane</div>
                                 <div className="sw-cust-address-list-detail">Varanasi, Uttar Pradesh</div>
                             </div>
                             <div className="sw-cust-address-item-right">
@@ -143,8 +143,8 @@ class CartAddress extends React.Component {
                         <div className="sw-cust-address-item">
                             <div className="sw-cust-address-item-left">
                                 <div className="sw-cust-address-list-name">Harshit</div>
-                                <div className="sw-cust-address-list-detail">Mob:8266939719</div>
-                                <div className="sw-cust-address-list-detail">C-27/171,Jagatganj</div>
+                                <div className="sw-cust-address-list-detail">Mob:9999999719</div>
+                                <div className="sw-cust-address-list-detail">Down the Lane</div>
                                 <div className="sw-cust-address-list-detail">Varanasi, Uttar Pradesh</div>
                             </div>
                             <div className="sw-cust-address-item-right">

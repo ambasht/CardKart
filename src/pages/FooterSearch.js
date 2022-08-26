@@ -22,15 +22,15 @@ class Footer extends React.Component {
         let footer;
 
             footer = <div className="sw-footer">
-                <Link className={this.state.footerValue == 2 ? "sw-footer-item" + " " + "active" : "sw-footer-item"} to={'/home'} onClick={this.changeFooter}>
+                <Link className={this.state.footerValue == 2 ? "sw-footer-item" + " " + "active" : "sw-footer-item"} to={'/CardKart/home'} onClick={this.changeFooter}>
                     <i class="fas fa-border-all"></i>
                     <div className="sw-footer-item-name">Category</div>
                 </Link>
-                <Link className="sw-footer-item" to={''}>
+                <Link className="sw-footer-item" to={'/CardKart'}>
                     <i class="fas fa-heart"></i>
                     <div className="sw-footer-item-name">Favourite</div>
                 </Link>
-                <Link className="sw-footer-item" to={'/'} >
+                <Link className="sw-footer-item" to={'/CardKart'} >
                     <i class="fas fa-home"></i>
                     <div className="sw-footer-item-name">Home</div>
                 </Link>
