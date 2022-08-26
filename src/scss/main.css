@@ -87,6 +87,9 @@
   width: 25%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .sw-result-header-nav {
