@@ -81,6 +81,12 @@ font-size: 0.8em;
       height: 35px;
       font-size: 1.4em;
       align-items: flex-start;
+      .fa-info-circle{
+        animation: identifier2 1.2s infinite;
+      }
+    }
+    .sw-result-slider-card-bottom-right:nth-child(1){
+        
     }
 }
 
@@ -122,4 +128,32 @@ font-size: 0.8em;
         width: 50%;
         font-weight: 700;
     }
+}
+@keyframes identifier2 {
+    0%{
+        opacity: 1; 
+        transform: translateX(10px);
+        
+    }
+    40%{
+        opacity: 1; 
+        transform: translateX(15px);
+        
+    }
+    60%{
+        opacity: 1; 
+        transform: translateX(10px);
+        
+    }
+    80%{
+        opacity: 1; 
+        transform: translateX(7px);
+        
+    }
+    100%{
+        opacity: 1; 
+        transform: translateX(10px);
+        
+    }
+    
 }

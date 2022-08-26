@@ -11,6 +11,9 @@
             position: fixed;
             top: 0;
             left: 0;
+            .slick-track{
+                animation: identifier 1.8s;
+            }
             .sw-result-slider-crousel-box{
                 width: 100%;
                 height: 100%;
@@ -222,4 +225,33 @@ width: 40%;
             }
          }
     }
+}
+
+@keyframes identifier {
+    0%{
+        opacity: 1; 
+        transform: translate3d(0px, -75%, 0px);
+        
+    }
+    40%{
+        opacity: 1; 
+        transform: translate3d(0px, -85%, 0px);
+        
+    }
+    60%{
+        opacity: 1; 
+        transform: translate3d(0px, -75%, 0px);
+        
+    }
+    80%{
+        opacity: 1; 
+        transform: translate3d(0px, -80%, 0px);
+        
+    }
+    100%{
+        opacity: 1; 
+        transform: translate3d(0px, -75%, 0px);
+        
+    }
+    
 }

@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link rel="preconnect" href="https://fonts.googleapis.com">
+   
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,11 +33,52 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    
   </head>
+  <style>
+   
+    @media(min-width: 600px){
+      html{
+        display: flex;
+        justify-content: center;
+        background-color: #000;
+        min-height: 100%;
+      }
+      body{
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        min-height: 100%;
+      }
+      body .formob,
+      .sw-header,
+      .sw-footer,
+      .sw-fillter-sort,
+      .sw-result-header-nav,
+      .sw-result-slider-card-bottom,
+      .sw-cartPage-header,
+      .sw-cart-footer,
+      .sw-result-slider-crousel,
+      .sw-result-slider-card-info,
+      .sw-clearspace
+      {
+      width: 400px!important;
+      left: calc(50% - 200px)!important;
+      padding: 0px!important;
+    }
+    .msg{
+      display: block!important;
+    }
+  }
+   </style>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div onclick="hide(this)" style="z-index:99999;position:absolute; height:100%;width:100%;display:flex;padding:10px;justify-content:center;align-items:center;background:rgba(0,0,0,0.7);color:#fff;font-size:2em;text-align:center;font-family: Dancing Script, cursive;">Thanks for comming here :). Currently the backend is in development phase but you can enjoy the navigation in between pages.<br>Thanks<br>Click to Continue </div>
+    <div  class="msg"style="display:none;z-index:9999;position:absolute;top:10px;left:10px;padding:10px;background:rgba(0,0,0,0.7);width:120px;color:#fff;font-size:1.2em;text-align:center;font-family: Dancing Script, cursive;">For best experience visit on your mobile<br> <br>Scan this QR code to visit<br><br><img style="height: 150px;width:150px;"src="./frame.png" > </div>
+    <div class="formob">
     <div id="root"></div>
+  </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
