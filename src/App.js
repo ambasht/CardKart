@@ -114,7 +114,7 @@ class App extends React.Component {
          <Router> 
            {this.state.header ? <Header results={this.state.headerType} onClick={this.changePage} /> : ''}
            <Routes>
-              <Route exact path='/CardKart/home' element={''} />
+              <Route exact path='/CardKart/' element={''} />
               <Route exact path='/CardKart/home' element={<Header/>} />
               <Route exact path='/CardKart/search' element={<Header/>} />
               <Route exact path='/CardKart/results' element={<HeaderSlider/>} />

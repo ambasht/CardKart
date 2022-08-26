@@ -19,8 +19,8 @@ class Home extends React.Component {
             initialSlide: 0,
 
         };
-        return (
-            <div className="sw-home">
+        return (<div>Hellohome</div>);
+            {/*<div className="sw-home">
                 <div className="sw-home-box">
                     <div className="sw-home-card-top">
                         <div className="sw-home-card-top-text">
@@ -31,7 +31,7 @@ class Home extends React.Component {
                     <div className="sw-slider-container">
 
                         <Slider {...settings} className="sw-home-slider">
-                            <Link to={'/search'}className="sw-home-card" >
+                            <Link to={'/CardKart/search'}className="sw-home-card" >
                                 <div className="sw-home-card-top-img">
                                     <img src={Img}></img>
                                 </div>
@@ -161,8 +161,9 @@ class Home extends React.Component {
                 
                 <FooterDetail/>
                 <div className="sw-clearspace"></div>
-            </div>
-        );
+            </div>*/}
+            
+        
     }
 }
 export default Home;

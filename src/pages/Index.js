@@ -72,7 +72,7 @@ class Index extends React.Component {
                                     <div className="sw-index-card-top-text-tittle">Ocassion</div>
                                 </div>
                             </div>
-                            <Link to={'/home'} className="sw-index-card-bottom"><button >Explore</button></Link>
+                            <Link to={'/CardKart/home'} className="sw-index-card-bottom"><button >Explore</button></Link>
                         </div>
 
                         <div className="sw-index-card">
@@ -86,8 +86,8 @@ class Index extends React.Component {
                                 </div>
                             </div>
                             <div className="sw-index-card-bottom">
-                                <button style={{ width: "45%" }} to={'/search'}>Her</button>
-                                <button style={{ width: "45%" }} to={'/search'}>Him</button>
+                                <button style={{ width: "45%" }} to={'/CardKart/search'}>Her</button>
+                                <button style={{ width: "45%" }} to={'/CardKart/search'}>Him</button>
                             </div>
                         </div>
 
