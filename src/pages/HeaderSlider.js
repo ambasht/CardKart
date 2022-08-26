@@ -3,10 +3,10 @@ import { BrowserRouter as Router,Switch,Route,Link,useNavigate} from "react-rout
 
 
 class Header extends React.Component {
-    navigate = useNavigate();
+    
     render() {
         var ifSearchActive = this.props.results;
-        
+        navigate = useNavigate();
         let header;
         
             header = <div className="sw-result-header-nav">

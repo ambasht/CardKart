@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Switch, Route, Link,useNavigate } from "react-
 
 
 class Header extends React.Component {
-    navigate = useNavigate();
+    
     render() {
 
 
         let header;
-
+        navigate = useNavigate();
         header = <div className="sw-header">
             <div className="sw-header-box">
                 <div className="sw-logo" onClick={() => navigate(-1)}><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Cards</div>
