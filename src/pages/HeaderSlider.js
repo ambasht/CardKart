@@ -1,20 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import { BrowserRouter as Router,Switch,Route,Link,useNavigate} from "react-router-dom";
 
 
 class Header extends React.Component {
-    back = () => {
-        this.props.onClick("back");
-
-        
-    }
+    navigate = useNavigate();
     render() {
         var ifSearchActive = this.props.results;
         
         let header;
         
             header = <div className="sw-result-header-nav">
-                <div className="sw-result-header-button" onClick={this.back}>
+                <div className="sw-result-header-button" onClick={() => navigate(-1)}>
                     <i class="fa fa-chevron-left" aria-hidden="true"></i>
 
                 </div>

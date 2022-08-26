@@ -1,13 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link,useNavigate } from "react-router-dom";
 
 
 class Header extends React.Component {
-    back = () => {
-
-
-
-    }
+    navigate = useNavigate();
     render() {
 
 
@@ -15,7 +11,7 @@ class Header extends React.Component {
 
         header = <div className="sw-header">
             <div className="sw-header-box">
-                <div className="sw-logo"><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Cards</div>
+                <div className="sw-logo" onClick={() => navigate(-1)}><i class="fas fa-chevron-left" style={{ "fontSize": "0.8em" }} onClick={this.back}></i> Cards</div>
                 <div className="sw-head-icon-container">
                     <Link to={'/CardKart/favrouit'}>
                         <i class="fas fa-heart" style={{ "fontSize": "0.8em", "display": "flex", "justifyContent": "center", "alignItems": "center", "color": "#FF4033" }}></i>
