@@ -5,11 +5,7 @@ import { BrowserRouter as Router,Switch,Route,Link,useNavigate} from "react-rout
 class Header extends React.Component {
     
 
-    back = () => {
-        useNavigate(-1);
-
-        
-    }
+    
     render() {
         var ifSearchActive = this.props.results;
         

@@ -3,9 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link,useNavigate } from "react-
 
 
 class Header extends React.Component {
-    back(){
-      useNavigate(-1);
-    }
+    
     render() {
 
 
