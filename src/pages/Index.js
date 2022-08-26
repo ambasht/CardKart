@@ -1,5 +1,6 @@
 import React from 'react'
 import Img from '../img/card.jpeg';
+import Img2 from '../img/card3.jpeg';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Slider from "react-slick";
 import "../../node_modules/slick-carousel/slick/slick.css";
