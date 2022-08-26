@@ -33,7 +33,7 @@ class Home extends React.Component {
                         <Slider {...settings} className="sw-home-slider">
                             <Link to={'/CardKart/search'}className="sw-home-card" >
                                 <div className="sw-home-card-top-img">
-                                    <img src={Img}></img>
+                                    <img src="https://ascension.co.in/product/design-kundan-meena-rakhi-raksha-bandhan-gift-band-stone-pearl-rakhi-for-brother-bhaiya-with-roli-tilak-pack/"></img>
                                 </div>
 
 
@@ -99,7 +99,7 @@ class Home extends React.Component {
                     </div>
                     <div className="sw-slider-container">
 
-                        {/*<Slider {...settings} className="sw-home-slider">
+                        <Slider {...settings} className="sw-home-slider">
                             <div className="sw-home-card" onClick={this.changePage}>
                                 <div className="sw-home-card-top-img">
                                     <img src={Img}></img>
@@ -130,7 +130,7 @@ class Home extends React.Component {
 
                             </div>
 
-                        </Slider>*/}
+                        </Slider>
 
                     </div>
                 </div>
